@@ -1,0 +1,14 @@
+services:
+  playground-python:
+    container_name: 'playground-python'
+    hostname: 'python'
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    working_dir: '/workspace'
+    tty: true
+    volumes:
+      - type: bind
+        source: ../workspace
+        target: /workspace

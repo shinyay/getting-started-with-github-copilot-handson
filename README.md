@@ -1,4 +1,4 @@
-# Title
+# Getting Started with GitHub Copilot / Python
 
 ## Description
 
@@ -16,6 +16,8 @@
 ## Installation
 
 ## References
+
+- [GitHub Copilot Workshop](https://yuhattor.github.io/copilot-handson/ja/index.html)
 
 ## Licence
 

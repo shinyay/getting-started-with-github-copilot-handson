@@ -58,24 +58,4 @@ def main():
             print("yかnを入力してください")
             continue
 
-#     # ９通りのテストケースを作成
-# class TestJudge(unittest.TestCase):
-#     #グーをテスト
-#     def test_gu(self):
-#         self.assertEqual(judge("グー", "グー"), "あいこです")
-#         self.assertEqual(judge("グー", "チョキ"), "勝ちです")
-#         self.assertEqual(judge("グー", "パー"), "負けです")
-#     #チョキをテスト
-#     def test_choki(self):
-#         self.assertEqual(judge("チョキ", "グー"), "負けです")
-#         self.assertEqual(judge("チョキ", "チョキ"), "あいこです")
-#         self.assertEqual(judge("チョキ", "パー"), "勝ちです")
-#     #パーをテスト
-#     def test_pa(self):
-#         self.assertEqual(judge("パー", "グー"), "勝ちです")
-#         self.assertEqual(judge("パー", "チョキ"), "負けです")
-#         self.assertEqual(judge("パー", "パー"), "あいこです")
-
-# # テストを実行
-# if __name__ == "__main__":
-#     unittest.main()
+# GitHub Copilot Chat を使ってテストコードを書いてみましょう

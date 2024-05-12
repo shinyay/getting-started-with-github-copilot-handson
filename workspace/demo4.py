@@ -2,7 +2,12 @@
 import random
 import unittest
 
-# 勝敗の判定ロジックをハンドルするjudge関数を定義
+# 関数の概要、入力と出力、関数の例、関数の注意事項を出力します。
+# Description: judge関数はじゃんけんの勝敗を判定する関数です。
+# Input: user_hand: ユーザーの手, computer_hand: コンピューターの手
+# Output: 勝敗の結果
+# Example: judge("グー", "チョキ") => "勝ちです"
+# Note: user_handとcomputer_handはそれぞれ"グー"、"チョキ"、"パー"のいずれかを入力してください。
 def judge(user_hand, computer_hand):
     #プレイヤーの手とコンピューターの手を比較して結果を表示
     if user_hand == computer_hand:
@@ -11,6 +16,7 @@ def judge(user_hand, computer_hand):
         return "勝ちです"
     else:
         return "負けです"
+
 
 # judge関数を使ってじゃんけんをするmain関数を定義
 def main():
